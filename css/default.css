@@ -1,0 +1,297 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	background-color: #232323;
+
+}
+
+/* embedded fonts */
+@font-face {
+	font-family: OSBold;
+	src:url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+/* paragraph styles */
+.text {
+	font-family: OSBold;
+}
+
+@font-face {
+	font-family: OSLight;
+	src:url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+/* paragraph styles */
+.text {
+	font-family: OSLight;
+}
+
+
+
+/* THEY Animation */
+@-webkit-keyframes THEY {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#they {
+	position: relative;
+	text-align: center;
+	margin-top: 230px;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: THEY 1s;
+
+}
+/* ARE Animation */
+@-webkit-keyframes ARE {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#are {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: ARE 1s;
+	-webkit-animation-delay: 1s;
+
+}
+
+/* BACK Animation */
+@-webkit-keyframes BACK {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#back {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: BACK 1s;
+	-webkit-animation-delay: 2s;
+
+}
+
+/* FOR Animation */
+@-webkit-keyframes FOR {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#for {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: FOR 1s;
+	-webkit-animation-delay: 3s;
+
+}
+
+/*ONE NIGHT ONLY */
+
+#line {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+}
+
+
+@-webkit-keyframes one {
+	0% 100%{ font-size: 0px; }
+	10% { font-size: 90px; }
+	85% { font-size: 90px; }
+}
+
+#one {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: one 2s;
+	-webkit-animation-delay: 4s;
+
+}
+
+@-webkit-keyframes night {
+	0% 100%{ font-size: 0px; }
+	10% { font-size: 90px; }
+	80% { font-size: 90px; }
+}
+
+#night {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: night 1.5s ;
+	-webkit-animation-delay: 4.5s;
+
+}
+
+@-webkit-keyframes only {
+	0% 100% { font-size: 0px; }
+	10% { font-size: 90px; }
+	63% { font-size: 90px; }
+}
+
+#only {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: only 1s;
+	-webkit-animation-delay: 5s;
+
+}
+
+/*EVENT INFO */
+
+
+@-webkit-keyframes event {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+
+}
+
+#event {
+	
+	font-size-adjust: 0.58;
+	color: white;
+	opacity: 0;
+	margin-top: -210px;
+	-webkit-animation: event 2s forwards;
+	-webkit-animation-delay: 6s;
+
+}
+
+@-webkit-keyframes jonas {
+	0% { color: #5cc3b9;}
+	50% {color: #25a9e0;}
+	100% {color: #5cc3b9;}
+}
+
+#info {
+	position: relative;
+}
+
+#Jonas {
+
+	font-family: OSBold;
+	font-size: 243px;
+	margin-left: 60px;
+	margin-top: -730px;
+	color: #38c1d8;
+
+	-webkit-animation: jonas 5s infinite;
+}
+
+#Brothers {
+	font-family: OSBold;
+	font-size: 136px;
+	margin-left: 180px;
+	margin-top: -330px;
+	color: #25a9e0;
+}
+
+#Reunion {
+	font-family: OSLight;
+	font-size: 85px;
+	margin-top: -160px;
+	margin-left: 30px;
+}
+
+#date {
+	font-family: OSBold;
+	font-size: 34px;
+	margin-left: 300px;
+	margin-top: -76px;
+}
+
+#description {
+	font-family: OSLight;
+	font-size: 33px;
+	margin-left: 180px;
+	margin-top: 40px;
+	line-height: 6px;
+
+}
+
+#songs {
+	font-family: OSLight;
+	font-size: 16px;
+	font-size: calc(1vw + 1vh);
+	text-align: justify;
+	color: #404041;
+	margin-top: -50px;
+	width: 100%;
+}
+
+.long{
+	width: 1800px;
+	text-align: justify-all;
+    text-justify: inter-word;
+}
+
+.short{
+	width: 750px;
+	margin-left: 1000px;
+	text-align: justify-all;
+	text-justify: inter-word;
+}
+
+#dateline {
+	margin-left: 1240px;
+	text-align: justify-all;
+	text-justify: inter-word;
+}
+
+/* 
+.title {
+	font-family: OSBold;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
